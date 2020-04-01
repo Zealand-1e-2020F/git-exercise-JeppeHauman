@@ -8,10 +8,11 @@ namespace GitExercise
 
         public int postnr { get; set; }
 
-        public myClass(string navn, string adresse)
+        public myClass(string navn, string adresse, int postnr)
         {
             this.navn = navn;
             this.adresse = adresse;
+            this.postnr = postnr;
         }
 
         public override string ToString()
