@@ -8,11 +8,11 @@ namespace GitExercise
         {
             Console.WriteLine("Hello World!");
 
-            myClass myclass = new myClass("Jeppe", "Thorsgade", 2200);
+            myClass myclass = new myClass("Jeppe", "Thorsgade", 2200, "København");
 
-            myClass myclass1 = new myClass("Mike", "Roskilde", 4000);
+            myClass myclass1 = new myClass("Mike", "Roskilde", 4000, "Roskilde");
 
-            myClass myclass2 = new myClass("Madeleine", "Roskilde", 4000);
+            myClass myclass2 = new myClass("Madeleine", "Roskilde", 4000, "Roskilde");
 
             myclass.postnr = 2200;
 

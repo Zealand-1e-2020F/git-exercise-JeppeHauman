@@ -10,7 +10,7 @@ namespace GitExercise
 
         public string by { get; set; }
 
-        public myClass(string navn, string adresse, int postnr)
+        public myClass(string navn, string adresse, int postnr, string by)
         {
             this.navn = navn;
             this.adresse = adresse;
@@ -20,7 +20,7 @@ namespace GitExercise
 
         public override string ToString()
         {
-            return $"Navn: {navn}, Adresse: {adresse}, postnr.: {postnr}";
+            return $"Navn: {navn}, Adresse: {adresse}, Postnr.: {postnr}, By: {by}";
         }
     }
 }
